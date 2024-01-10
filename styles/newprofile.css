@@ -259,14 +259,68 @@ header{
     background: #F00;
     width: 210px;
     height: 72px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    line-height: normal;
 }
 .news-form{
     border-radius: 50px;
     background: #FFF;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 60px auto;
     display: flex;
 }
 .newsletter .news-form input{
     flex-grow: 1;
+    border: none;
+    font-size: 18px;
+    padding: 20px;
+}
+footer{
+    background: #070211;
+    width: 100%;
+    height: 609px;
+    margin: 0 auto;
+}
+.upper-section{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-left: 140px;
+}  
+
+.call{
+    color: #FFF;
+    font-size: 24px;
+    margin-right: 140px;
+}
+
+.upper-section p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    width: 390px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.lower-section{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 24px;
+    padding: 100px 140px 100px 140px;
+}
+.horizontal{
+    background: rgba(255, 255, 255, 0.15);
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-top: 60px;
 }
