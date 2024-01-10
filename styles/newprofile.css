@@ -188,7 +188,7 @@ header{
 }
 .awesome-portfolio{
     width: 1320px;
-    height: 6400px;
+    height: 1200px;
     margin: 0 auto;
 }
 .awesome-heading h4{
@@ -227,4 +227,46 @@ header{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+.newsletter{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 20px auto;
+    width: 1320px;
+    height: 590px;
+}
+.mail-icon{
+    display: grid;
+    place-items: center;
+    padding: 80px 0 0 0;
+}
+.news-heading h2{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 30px;
+    
+}
+.news-heading p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 190px 0 190px;
+}
+.news-btn{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 210px;
+    height: 72px;
+}
+.news-form{
+    border-radius: 50px;
+    background: #FFF;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+}
+.newsletter .news-form input{
+    flex-grow: 1;
 }
